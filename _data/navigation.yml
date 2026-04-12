@@ -1,0 +1,7 @@
+main:
+  - title: "Über uns"
+    url: /about/
+  - title: "Impressum"
+    url: /year-archive/
+  - title: "Datenschutz"
+    url: /privacy/
