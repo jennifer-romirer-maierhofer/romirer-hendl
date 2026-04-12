@@ -1,6 +1,6 @@
 main:
-  - title: "Über uns"
-    url: /about/
+  # - title: "Über uns"
+  #   url: /about/
   - title: "Impressum"
     url: /impressum/
   - title: "Datenschutz"

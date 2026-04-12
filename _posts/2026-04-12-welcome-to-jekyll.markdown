@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title:  "Welcome to Jekyll!"
 date:   2026-04-12 00:43:51 +0200
 categories: jekyll update

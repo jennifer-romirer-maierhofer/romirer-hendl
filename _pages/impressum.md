@@ -1,11 +1,12 @@
 ---
-layout: splash
+layout: single
 title: Impressum
 permalink: /impressum/
 last_modified_at: 2026-04-12T02:00:00+01:00
 toc: true
+tod_sticky: true
+toc_label: "Inhalt"
 ---
-# Impressum
 
 Informationspflicht laut §5 E-Commerce Gesetz, §63 Gewerbeordnung, §14 Unternehmensgesetzbuch und Offenlegungspflicht laut §25 Mediengesetz
 
@@ -15,7 +16,7 @@ AT-8250 Vorau
 
 **Tel:** [+43 (0)664 914 00 23](tel:+436649140023)
 
-**E-Mail:** [ferdi.romirer@aon.at](mailto:ferdi.romirer%40aon.at)
+**E-Mail:** [romirerhendl@gmail.com](mailto:romirerhendl@gmail.com)
 
 Unternehmensgegenstand: Gastgewerbe, in der Betriebsart Buffet  
 UID-Nr: ATU68684701

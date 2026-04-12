@@ -1,0 +1,34 @@
+---
+# Only the main Sass file needs front matter
+---
+
+@import "minimal-mistakes";
+@charset "utf-8";
+
+/*Footer*/
+.page__footer a i {
+  color: red !important;
+}
+
+/*Header*/
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff; // prevent transparency issues
+}
+.masthead__menu .site-title {
+  color: red ;
+}
+.masthead__menu .site-title:hover {
+  color: red ;
+}
+.masthead__menu .site-subtitle {
+  color: #3d4144 !important;
+}
+
+/*TOC*/
+.sticky,
+.sidebar__right.sticky{
+  height: 75px !important; /*65px plus some additional pixels, modify to your taste*/
+}

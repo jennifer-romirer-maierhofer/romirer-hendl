@@ -1,0 +1,24 @@
+# Site Author
+Ferdi:
+  name             : "Ferdinand Romirer-Maierhofer"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Papa arbeitet"
+  location         : "Riegersbach 161, AT-8250 Vorau"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-square-envelope"
+      url: "mailto:romirerhendl@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+
+Christine:
+  name             : "Christine Romirer-Maierhofer"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "gemeinsam mit Ferdinand sen. starteten sie 1978 den Betrieb"
+  location         : "Riegersbach 161, AT-8250 Vorau"
+Ferdinand:
+  name             : "Ferdinand sen. Romirer-Maierhofer"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "gemeinsam mit Christine starteten sie 1978 den Betrieb"
+  location         : "Riegersbach 161, AT-8250 Vorau"  

@@ -1,30 +1,12 @@
 ---
-layout: splash
+layout: single
 title: Datenschutz
 permalink: /privacy/
 last_modified_at: 2026-04-12T02:00:00+01:00
 toc: true
+tod_sticky: true
+toc_label: "Inhalt"
 ---
-# Datenschutz
-## Inhaltsverzeichnis
-
-- [Einleitung und Überblick](#einleitung-und-überblick)
-- [Anwendungsbereich](#anwendungsbereich)
-- [Rechtsgrundlagen](#rechtsgrundlagen)
-- [Kontaktdaten des Verantwortlichen](#kontaktdaten-des-verantwortlichen)
-- [Speicherdauer](#speicherdauer)
-- [Rechte laut Datenschutz-Grundverordnung](#rechte-laut-datenschutz-grundverordnung)
-- [Sicherheit der Datenverarbeitung](#sicherheit-der-datenverarbeitung)
-- [Kommunikation](#kommunikation)
-- [Cookies](#cookies)
-- [Webhosting Einleitung](#webhosting-einleitung)
-- [Content Delivery Networks Einleitung](#content-delivery-networks-einleitung)
-- [Audio & Video Einleitung](#audio--video-einleitung)
-- [Webdesign Einleitung](#webdesign-einleitung)
-- [Online-Kartendienste Einleitung](#online-kartendienste-einleitung)
-- [Erklärung verwendeter Begriffe](#erklärung-verwendeter-begriffe)
-- [Schlusswort](#schlusswort)
-
 ## Einleitung und Überblick
 
 Wir haben diese Datenschutzerklärung (Fassung 08.03.2026-113193268) verfasst, um Ihnen gemäß der Vorgaben der [Datenschutz-Grundverordnung (EU) 2016/679](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=DE&tid=113193268#d1e2269-1-1) und anwendbaren nationalen Gesetzen zu erklären, welche personenbezogenen Daten (kurz Daten) wir als Verantwortliche - und die von uns beauftragten Auftragsverarbeiter (z. B. Provider) - verarbeiten, zukünftig verarbeiten werden und welche rechtmäßigen Möglichkeiten Sie haben. Die verwendeten Begriffe sind geschlechtsneutral zu verstehen.  
@@ -69,8 +51,8 @@ Sollten Sie Fragen zum Datenschutz oder zur Verarbeitung personenbezogener Daten
 Ferdinand Romirer-Maierhofer  
 Riegersbach 161, 8250 Vorau, Österreich
 
-E-Mail: [ferdi.romirer@aon.at](mailto:ferdi.romirer@aon.at)  
-Telefon: [+43 664 914 00 23](tel:+43%20664%20914%2000%2023)  
+E-Mail: [romirerhendl@gmail.com](mailto:romirerhendl@gmail.com)  
+Telefon: [+43 664 914 00 23](tel:+436649140023)  
 Impressum: <https://www.romirerhendl.at/impressum/>
 
 ## Speicherdauer
@@ -111,11 +93,11 @@ Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht v
 
 **Österreich Datenschutzbehörde**
 
-**Leiter:** Dr. Matthias Schmidl
-**Adresse:** Barichgasse 40-42, 1030 Wien
-**Telefonnr.:** +43 1 52 152-0
-**E-Mail-Adresse:** [dsb@dsb.gv.at](mailto:dsb@dsb.gv.at)
-**Website:** <https://www.dsb.gv.at/>
+| **Leiter:** | Dr. Matthias Schmidl |
+| **Adresse:** | Barichgasse 40-42, 1030 Wien |
+| **Telefonnr.:** | +43 1 52 152-0 |
+| **E-Mail-Adresse:** | [dsb@dsb.gv.at](mailto:dsb@dsb.gv.at) |
+| **Website:** | <https://www.dsb.gv.at/> |
 
 ## Sicherheit der Datenverarbeitung
 
