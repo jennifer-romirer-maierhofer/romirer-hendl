@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: splash
+permalink: /
 header:
   overlay_color: "#df5d5d"
   overlay_filter: "0.5"
@@ -41,8 +42,6 @@ feature_row4:
     alt: "placeholder image 2"
     title: "Direkt bei uns"
     excerpt: 'Besuchen Sie uns an unserem Standort und genießen Sie unsere Hendl frisch vom Grill, direkt und unkompliziert. **Nur auf Vorbestellung.**
-
-'  
 ---
 
 {% include feature_row id="intro" type="center" %}

@@ -140,10 +140,8 @@ author:
 footer:
   links:
     - label: "Impressum"
-      icon: "fab fa-fw fa-square-x-twitter"
       url: /impressum
     - label: "Datenschutz"
-      icon: "fab fa-fw fa-square-x-github"
       url: /privacy  
       # rel: "me"  # optional: adds rel attribute (e.g. for IndieWeb web sign-in)
   since: "2026"
