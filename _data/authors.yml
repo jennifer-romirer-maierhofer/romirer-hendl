@@ -4,13 +4,8 @@ Ferdi:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Papa arbeitet"
   location         : "Riegersbach 161, AT-8250 Vorau"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-square-envelope"
-      url: "mailto:romirerhendl@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+  mail             : "mailto:romirerhendl@gmail.com"
+  tel              : "tel:436649140023"
 
 Christine:
   name             : "Christine Romirer-Maierhofer"

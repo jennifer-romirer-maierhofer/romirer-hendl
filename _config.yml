@@ -49,11 +49,12 @@ title_separator          : "-"
 subtitle                 : "seit 1978" # site tagline that appears below site title in masthead
 name                     : "Your Name"
 description              : "familiengeführter Grillbetrieb seit 1978!" # displayed in Feed.xml and Google Description
-url                      : "romirerhendl.at" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : "https://jennifer-romirer-maierhofer.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+brand_color              : "#ff0000" 
+baseurl                  : "/romirerhendl" # the subpath of your site it is also the github repo, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : # "/assets/images/WebPageIcon.svg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 enable_copy_code_button  : true #true, false (default)
 reCaptcha:
