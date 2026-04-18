@@ -1,0 +1,57 @@
+---
+# Only the main Sass file needs front matter
+---
+
+@import "minimal-mistakes";
+@charset "utf-8";
+
+:root {
+  --brand-color: {{ site.brand_color }};
+}
+/*Footer*/
+.page__footer a i {
+  color: var(--brand-color) !important;
+}
+
+/*Header*/
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff; // prevent transparency issues
+}
+.masthead__menu .site-title {
+  color: var(--brand-color);
+}
+.masthead__menu .site-title:hover {
+  color: var(--brand-color);
+}
+.masthead__menu .site-subtitle {
+  color: #3d4144 !important;
+}
+.page__hero,
+.page__hero--overlay,
+.page__hero-image {
+  min-height: 40vh;
+  display: flex;
+  align-items: center;     /* vertical centering */
+  text-align: center; 
+}
+/*TOC*/
+.sticky,
+.sidebar__right.sticky{
+  height: 75px !important; /*65px plus some additional pixels, modify to your taste*/
+}
+
+.left-block {
+  display: inline-block;   /* shrink to content */
+  text-align: left;        /* inner alignment */
+  margin: 0 auto;          /* center the block */
+  margin-top: 0;
+}
+
+.highlight {
+  color: var(--brand-color);
+  font-weight: bold;
+  margin-bottom: 0.1em;
+}

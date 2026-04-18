@@ -1,7 +1,7 @@
 main:
-  - title: "Über uns"
-    url: /about/
+  # - title: "Über uns"
+  #   url: /about/
   - title: "Impressum"
-    url: /year-archive/
+    url: /impressum/
   - title: "Datenschutz"
     url: /privacy/
