@@ -20,6 +20,7 @@ minimal_mistakes_skin: "dirt" # "default", "air", "aqua", "contrast", "dark", "d
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -44,17 +45,17 @@ plugins:
 
 # Site Settings
 locale                   : "de-DE"
-title                    : "Romirer Hendl"
-title_separator          : "-"
-subtitle                 : "seit 1978" # site tagline that appears below site title in masthead
-name                     : "Your Name"
+title                    : "Romirer Hendls"
+title_separator          : ""
+subtitle                 : "" # site tagline that appears below site title in masthead
+name                     : "Romirer Hendls"
 description              : "familiengeführter Grillbetrieb seit 1978!" # displayed in Feed.xml and Google Description
 url                      : "https://romirer-hendl.at" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 brand_color              : "#ff0000" 
 baseurl                  : "" # the subpath of your site it is also the github repo, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # "/assets/images/WebPageIcon.svg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 enable_copy_code_button  : true #true, false (default)
 reCaptcha:
@@ -84,7 +85,6 @@ footer:
     - label: "Datenschutz"
       url: /privacy
       icon: "fa fa-lock"
-      # rel: "me"  # optional: adds rel attribute (e.g. for IndieWeb web sign-in)
   since: "2026"
 
 

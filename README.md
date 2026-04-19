@@ -2,7 +2,7 @@
 This is the public Github Repo for the Github Pages Configuration of [www.romirer-hendl.at](www.romirer-hendl.at)
 
 ## Theme
-The Jekyll theme [**minimal-mistakes**](https://github.com/mmistakes/minimal-mistakes) was used and[configured as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+The Jekyll theme [**minimal-mistakes**](https://github.com/mmistakes/minimal-mistakes) was used and [configured as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
 
 ---
 

@@ -1,14 +1,15 @@
 ---
 layout: splash
+permalink: /
 header:
   overlay_color: "#da6969"
   overlay_filter: "0.5"
   overlay_image: /assets/images/Iveco.png
   image_path: /assets/images/Iveco.png
   #caption: "Photo credit: [**Steffi**](https://unsplash.com)"
-  #excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+  excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
 intro: 
-  - excerpt: "köstlich zubereitete Grillhendl nach Oma Christine's Rezept"
+  - excerpt: "köstlich zubereitete Grillhendl nach Oma Christine's Rezepts"
 feature_row:
   - title: "Frischverarbeitung"
     image_path: /assets/images/Iveco.png
@@ -16,7 +17,7 @@ feature_row:
     excerpt: "Unsere Hendl werden erst direkt **vor Ort** gewürzt – so bleiben sie besonders saftig, aromatisch und unvergleichlich frisch!"
 feature_row2:
   - title: "Perfekt gegrillt"
-    image_path: /assets/images/Iveco.png
+    image_path: /assets/images/GrillEvent.jpg
     alt: "Perfekt gegrillt"
     excerpt: 'mit Erfahrung, Leidenschaft und dem richtigen Gespür für perfekte Bräune und Saftigkeit'
 # feature_row3:
@@ -45,6 +46,7 @@ feature_row5:
 # {% include feature_row id="feature_row3" type="right" %}
 ---
 {% include feature_row id="intro" type="center" %}
+{% include feature_row id="feature_row2" type="center" %}
 
 {% include feature_row id="feature_row4" %}
 {% include feature_row id="feature_row5" type="center" %}
