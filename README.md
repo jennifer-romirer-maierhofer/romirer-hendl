@@ -1,17 +1,17 @@
-# Minimal Mistakes remote theme starter
+# Romirer Hendl
+This is the public Github Repo for the Github Pages Configuration of [www.romirer-hendl.at](www.romirer-hendl.at)
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
-[configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## Theme
+The Jekyll theme [**minimal-mistakes**](https://github.com/mmistakes/minimal-mistakes) was used and[configured as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
 
 ---
 
 ## Install
-Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/#chocolatey)
-`choco install ruby`
-Install [Jekyll](https://import.jekyllrb.com/docs/installation/)
-`gem install jekyll-import`
-Install [minimal mistakes themes](https://github.com/mmistakes/minimal-mistakes)
-`gem "minimal-mistakes-jekyll"`
+| Dependency | command | 
+| --- | --- |
+| [Ruby](https://www.ruby-lang.org/en/documentation/installation/#chocolatey) | `choco install ruby` |
+| [Jekyll](https://import.jekyllrb.com/docs/installation/) | `gem install jekyll-import` |
+| [minimal mistakes themes](https://github.com/mmistakes/minimal-mistakes) | `gem "minimal-mistakes-jekyll"` |
 
 ## Build 
 Install dependencies
