@@ -1,19 +1,17 @@
 # Site Author
 Ferdi:
-  name             : "Ferdinand Romirer-Maierhofer"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Papa arbeitet"
-  location         : "Riegersbach 161, AT-8250 Vorau"
-  mail             : "mailto:romirerhendl@gmail.com"
-  tel              : "tel:436649140023"
-
-Christine:
-  name             : "Christine Romirer-Maierhofer"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "gemeinsam mit Ferdinand sen. starteten sie 1978 den Betrieb"
-  location         : "Riegersbach 161, AT-8250 Vorau"
-Ferdinand:
-  name             : "Ferdinand sen. Romirer-Maierhofer"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "gemeinsam mit Christine starteten sie 1978 den Betrieb"
-  location         : "Riegersbach 161, AT-8250 Vorau"  
+  name: "Ferdinand Romirer-Maierhofer"
+  avatar: # "/assets/images/bio-photo.jpg"
+  bio: "Papa arbeitet"
+  location: 
+    - link: "https://maps.app.goo.gl/qXyDFeRgPaJgpg2y5"
+      text: "Riegersbach 161, AT-8250 Vorau"
+      icon: "fas fa-map-marker-alt"
+  mail: 
+    - link: "mailto:romirerhendl@gmail.com"
+      text: "romirerhendl@gmail.com"
+      icon: "fas fa-envelope"
+  tel:  
+    - link: "tel:+436649140023" 
+      text: "+43 (0)664 914 00 23"
+      icon: "fas fa-phone"

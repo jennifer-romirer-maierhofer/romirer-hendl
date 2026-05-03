@@ -7,18 +7,24 @@
 
 :root {
   --brand-color: {{ site.brand_color }};
+  --brand-bg-color: {{site.brand_background_color}};
+  --brand-footer-color: {{site.brand_footer_color}};
 }
 /*Footer*/
 .page__footer a i {
   color: var(--brand-color) !important;
 }
+.page__footer {
+  background-color: var(--brand-footer-color);
+}
 
 /*Header*/
-.masthead {
+.masthead,
+.masthead--sticky {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #fff; // prevent transparency issues
+  background-color: var(--brand-footer-color) !important; // prevent transparency issues
 }
 .masthead__menu .site-title {
   color: var(--brand-color);
@@ -29,6 +35,12 @@
 .masthead__menu .site-subtitle {
   color: #3d4144 !important;
 }
+
+body {
+  background-color: var(--brand-bg-color);
+}
+
+/*Title Image sizing*/
 .page__hero,
 .page__hero--overlay,
 .page__hero-image {
@@ -37,12 +49,14 @@
   align-items: center;     /* vertical centering */
   text-align: center; 
 }
+
 /*TOC*/
 .sticky,
 .sidebar__right.sticky{
   height: 75px !important; /*65px plus some additional pixels, modify to your taste*/
 }
 
+/*reuse for text*/
 .left-block {
   display: inline-block;   /* shrink to content */
   text-align: left;        /* inner alignment */
