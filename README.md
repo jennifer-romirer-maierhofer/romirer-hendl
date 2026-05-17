@@ -14,19 +14,28 @@ The Jekyll theme [**minimal-mistakes**](https://github.com/mmistakes/minimal-mis
 | [minimal mistakes themes](https://github.com/mmistakes/minimal-mistakes) | `gem "minimal-mistakes-jekyll"` |
 
 ## Build 
-Install dependencies
-`bundle update`
-`bundle install`
-### Run
-The local dev setup runs on `http://localhost:4000`
-Run jekyll with live reload. However changes in config.yml require a restart
-`bundle exec jekyll serve --livereload`
-clean
-`bundle exec jekyll clean`
+Install dependencies  
+- `bundle update`
+- `bundle install`
 
+### Run via Docker Compose
+Have Docker installed and running.  
+Build only Container: `docker build -p romirer-hendl -t romirer-hendl .`  
+Run - no previous Container build necessary: `docker-compose up -d --build`  
+ - force rebuild: `docker compose up -d --build --force-recreate`  
+
+Stop (mind orphaned children): `docker-compose down`  
+access via: `http://localhost:4000`  
+
+#### Troubleshooting
+set the right permissions via `chmod -R 755 .`  
+
+### Run via Jekyll
+The local dev setup runs on: `http://localhost:4000`  
+Run jekyll with live reload. However changes in config.yml require a restart: `bundle exec jekyll serve --livereload`  
+clean:  `bundle exec jekyll clean`  
 
 ## Troubleshooting
-
 If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
 
 - [Ruby 101](https://jekyllrb.com/docs/ruby-101/)

@@ -6,38 +6,48 @@
 @charset "utf-8";
 
 :root {
-  --brand-color: {{ site.brand_color }};
-  --brand-bg-color: {{site.brand_background_color}};
-  --brand-footer-color: {{site.brand_footer_color}};
+  --brand-colour: {{ site.brand_colour }};
+  --brand-bg-colour: {{site.brand_background_colour}};
+  --brand-2nd-colour: {{site.brand_2nd_colour}};
+  --masthead-colour: #595e63;
 }
 /*Footer*/
 .page__footer a i {
-  color: var(--brand-color) !important;
+  color: var(--brand-colour) !important;
 }
 .page__footer {
-  background-color: var(--brand-footer-color);
+  background-color: var(--brand-2nd-colour);
+}
+.page__footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*Header*/
 .masthead,
+.masthead__menu,
+.greedy-nav,
+.masthead__menu a,
 .masthead--sticky {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: var(--brand-footer-color) !important; // prevent transparency issues
+  color: var(--masthead-colour) !important;
+  background-color: var(--brand-2nd-colour) !important; /* prevent transparency issues*/
 }
-.masthead__menu .site-title {
-  color: var(--brand-color);
+.masthead a::before { /*underline of masthead items*/
+ background-color: var(--masthead-colour) !important;
 }
-.masthead__menu .site-title:hover {
-  color: var(--brand-color);
-}
-.masthead__menu .site-subtitle {
-  color: #3d4144 !important;
+.site-title,
+.site-title:hover,
+.greedy-nav .site-title,
+.greedy-nav .site-title:hover  {
+  color: var(--brand-colour) !important;
 }
 
 body {
-  background-color: var(--brand-bg-color);
+  background-color: var(--brand-bg-colour);
 }
 
 /*Title Image sizing*/
@@ -46,7 +56,7 @@ body {
 .page__hero-image {
   min-height: 40vh;
   display: flex;
-  align-items: center;     /* vertical centering */
+  align-items: center; /* vertical centering */
   text-align: center; 
 }
 
@@ -65,7 +75,22 @@ body {
 }
 
 .highlight {
-  color: var(--brand-color);
+  color: var(--brand-colour);
   font-weight: bold;
   margin-bottom: 0.1em;
+}
+
+/*Align feature Items vertically for screen size*/
+@media (min-width: 600px) {
+  .feature__wrapper .feature__item--left .archive__item-body {
+    margin-top: 0;
+    position: relative;
+    top: -2rem;
+  }
+  .archive__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
 }
