@@ -29,15 +29,15 @@ feature_row4:
   - #image_path: /assets/images/Iveco.png
     #alt: "placeholder image 2"
     title: "Fix vor Ort"
-    excerpt: 'Wir sind regelmäßig bei ausgewählten Standorten im Einsatz'
+    excerpt: 'Wir sind regelmäßig an ausgewählten Standorten im Einsatz'
   - #image_path: /assets/images/Iveco.png
     #alt: "placeholder image 2"
     title: "Events & Feiern"
-    excerpt: 'Egal ob zuhause, Firmenfeier oder großes Fest: Wir versorgen Sie mit frisch gegrillten Hendln'
+    excerpt: 'Egal ob gemütliche Geburtstagsfeier oder große Veranstaltung: Wir versorgen Sie mit frisch gegrillten Hendln'
   - #image_path: /assets/images/Iveco.png
     #alt: "placeholder image 2"
     title: "Direkt bei uns"
-    excerpt: "Besuchen Sie uns an unserem Standort und genießen Sie unsere Hendl frisch vom Grill, direkt und unkompliziert.\n\n**Nur auf Vorbestellung**"
+    excerpt: "Besuchen Sie unseren Standort und genießen Sie Hendln, frisch vom Grill, direkt und unkompliziert.\n\n**Nur auf Vorbestellung**"
 feature_row5:
   - title: "<h1 class='highlight'>Interesse?</h1>"
     excerpt: "<div class='left-block'><h4>Dann melden Sie sich gerne bei uns:</h4><p><strong>Ferdinand Romirer-Maierhofer </strong><br /><i class='fas fa-map-marker-alt'></i> <a href='https://maps.app.goo.gl/qXyDFeRgPaJgpg2y5'>Riegersbach 161, AT-8250 Vorau</a> <br /><i class='fas fa-phone'></i> <a href='tel:+436649140023'>+43 664 914 00 23 </a><br /><i class='fas fa-envelope'></i> <a href='mailto:romirerhendl@gmail.com'>romirerhendl@gmail.com</a>"

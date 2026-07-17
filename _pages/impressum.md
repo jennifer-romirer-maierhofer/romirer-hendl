@@ -21,7 +21,7 @@ AT-8250 Vorau
 Unternehmensgegenstand: Gastgewerbe, in der Betriebsart Buffet  
 UID-Nr: ATU68684701
 
-Berufsrecht: Gewerbeordnung: www.ris.bka.gv.at
+Gewerbeordnung: www.ris.bka.gv.at
 
 Aufsichtsbehörde/Gewerbebehörde: Bezirkshauptmannschaft Hartberg-Fürstenfeld  
 Verleihungsstaat: Österreich
